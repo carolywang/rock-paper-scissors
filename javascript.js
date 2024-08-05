@@ -32,7 +32,7 @@ function playGame(numRounds) {
       console.log("You win! Scissors beats Paper.");
       humanScore++;
     } else {
-      console.log("You tie!");
+      console.log("It's a tie!");
     }
   }
 
@@ -52,7 +52,7 @@ function playGame(numRounds) {
   } else if (humanScore < computerScore) {
     console.log("Oops, you lost.");
   } else {
-    console.log("You tied!");
+    console.log("It's a tie!");
   }
 }
 
